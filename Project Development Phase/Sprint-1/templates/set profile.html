@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SET ACCOUNT</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+      <link rel="stylesheet" href="static/css/setaccount.css">
+  </head>
+  <body>
+    <div class="tit">
+
+    </div>
+    <div class="msg">{{ msg }}</div>
+<form class="setAccount" action="/setprofile" method="post">
+  <div class="profile">
+    <h2>SETUP PROFILE</h2>
+    <div class="name">
+
+      <div class="firstname">
+        <label>First name</label>
+        <input class="fname txt-box form-control" type="text" name="firstname" placeholder="First name" title="First name">
+      </div>
+
+      <div class="lastname">
+          <label>Last name</label>
+        <input class="lname txt-box form-control" type="text" name="lastname" placeholder="Last name" title="First name">
+      </div>
+
+    </div>
+    <div class="email">
+        <label>Email</label>
+      <input class="email-box txt-box form-control" type="email" name="email" title="Email" placeholder="Email">
+    </div>
+    <div class="college">
+  <label>College Name</label>
+  <input class="clgname txt-box form-control" type="text" name="college" placeholder="College Name">
+    </div>
+    <div class="education">
+        <label>Qulification</label>
+        <input class="Qulification  txt-box form-control"type="text" name="qulification" placeholder="Qulification">
+
+
+
+</div>
+
+    <div class="resume">
+      <label>Upload resume </label>
+
+        <input class="resume-Upload"type="file" name="filename" value="" title="Upload resume">
+
+
+    </div>
+    <div class="desciption">
+      <label>Descriptions</label>
+      <textarea class="decription-box" name="decription" rows="3" cols="60" placeholder="Add description"></textarea>
+
+    </div>
+    <div class="desciption">
+      <label>Techinical Skills</label>
+      <textarea class="decription-box" name="skills" rows="2" cols="60" placeholder="Add skill sets"></textarea>
+    </div>
+
+    <div class="intrest">
+      <label>Filed of intrest</label>
+      <select class="interest-opt" name="interest">
+        <option value="Select">select</option>
+        <option value="web development">web developmen</option>
+        <option value="web development">Cloud computing</option>
+        <option value="web development">Front-end</option>
+        <option value="web development">Back-end</option>
+        <option value="web development">Blockchin</option>
+      </select>
+
+    </div>
+
+
+    <div class="next">
+      <button class ="next-btn  btn-primary"type="submit" name="button">Finish  </button>
+    </div>
+
+
+
+  </div>
+
+</form>
+
+  </body>
+</html>
