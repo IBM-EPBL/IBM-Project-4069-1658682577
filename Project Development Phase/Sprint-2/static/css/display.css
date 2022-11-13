@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h2{
+
+text-align: center;
+padding-bottom: 10PX;
+}
+.tit{
+  height: 40px;
+  width: 100%;
+    background: #ccebff;
+}
+.details-box{
+  position:relative;
+  height: 250px;
+  margin-left: 30%;
+margin-top: 2%;
+margin-bottom: 30%;
+margin-right: 30%;
+
+border-radius: 2%;
+background: #ccebff;
+}
+.tab-box{
+position: absolute;
+left: 30%;
+top: 20%;
+
+
+}
+.row{
+  position: relative;
+  left: 75%;
+  top: 15%;
+}
+.btn{
+  margin-right: 2%;
+  text-decoration: none;
+  color: black;
+}
