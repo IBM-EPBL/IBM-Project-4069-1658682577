@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h2{
+
+text-align: center;
+padding-bottom: 10PX;
+}
+
+label{
+  margin-left: 10px;
+}
+.interest-opt{
+margin-left: 4%;
+}
+
+.tit{
+  position:inherit;
+  top: 0;
+  background-color:  #ccebff;
+width: 100%;
+height: 50px;
+
+}
+.profile{
+
+
+  position:static;
+  margin-left: 30%;
+margin-top: 2%;
+margin-bottom: 2%;
+margin-right: 30%;
+
+border-radius: 2%;
+background: #ccebff;
+}
+.name{
+  position: relative;
+
+
+}
+
+.firstname{
+    position: relative;
+  height: :10%;
+
+width:50%;
+}
+.fname{
+  position: absolute;
+left: 50%;
+right:50%;
+
+  bottom: 2%;
+
+}
+.lastname{
+    position: relative;
+    margin-top: 5%;
+top: :15%;
+width:50%;
+
+
+}
+.lname{
+  position: absolute;
+left: 50%;
+right:50%;
+  bottom: 2%;
+
+}
+.email{
+position: relative;
+height: :10%;
+  margin-top: 5%;
+width:50%;
+}
+
+.email-box{
+  position: absolute;
+left: 50%;
+right:50%;
+  bottom: 2%;
+}
+
+
+.college{
+  position: relative;
+
+ height: :10%;
+   margin-top: 5%;
+ width:50%;
+}
+.clgname{
+  position: absolute;
+left: 50%;
+right:50%;
+  bottom: 2%;
+
+}
+.education{
+  position: relative;
+  height: :10%;
+    margin-top: 5%;
+  width:50%;
+}
+
+.Qulification{
+  position: absolute;
+left: 50%;
+
+  bottom: 2%;
+
+}
+.resume{
+  position: relative;
+  height: :10%;
+    margin-top: 5%;
+  width:50%;
+
+cursor: pointer;
+}
+.resume-Upload{
+  position: absolute;
+left: 50%;
+
+  bottom: 2%;
+  cursor: pointer;
+}
+
+
+.desciption{
+  position: relative;
+  height: :10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  width:90%;
+
+}
+.decription-box{
+  position: absolute;
+  top: 10%;
+left: 28%;
+right: 1%;
+}
+.fresher{
+  margin-left: 10%;
+  padding: 2%;
+}
+.experiance{
+  position: relative;
+}
+.company-name{
+  position: absolute;
+  left: 5%;
+  right: 5%;
+}
+.working{
+
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.exp_date-start{
+    position: relative;
+
+  padding-left: 5;
+  margin-right: 50%;
+}
+.year{
+  position: absolute;
+  top:0;
+  left: 58%;
+}
+.exp_date-end{
+
+  position: relative;
+  margin-top: -5% ;
+  margin-left: 50%;
+}
+.year-end{
+  position: absolute;
+  top:0;
+  left: 57%;
+}
+.next{
+
+  margin-left: 70%;
+  margin-right: 3%;
+  margin-top:3%;
+  margin-bottom: 2%;
+
+}
+
+.next-btn{
+  height: 100%;
+  width: 100%;
+  border-radius: 10%;
+
+ border-color:#ccebff;
+
+}
