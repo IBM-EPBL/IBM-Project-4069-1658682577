@@ -3,7 +3,7 @@ import re
 
 import ibm_boto3
 import ibm_db
-from flask import Flask, redirect, render_template, request, url_for
+from flask import Flask, redirect, render_template, request, url_for,session
 from ibm_botocore.client import ClientError, Config
 
 # Constants for IBM COS values
