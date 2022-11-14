@@ -2,16 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+  
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/display.css') }}">
 <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title></title>
   </head>
   <body>
     <div class="tit">
+      <div class="heading">
+        <h2><a href="#">Jobs Map</a></h2>
+      </div>
+
       <div class="row ">
-        <a type="button" class="btn btn-success mr-1" id="donate" href="/logout">LOGOUT</a>
-        <a type="button" class="btn btn-warning mr-1" id="sponsor" href="register">REGISTER</a>
-        <a type="button" class="btn btn-primary mr-1" id="sponsor" href="display">MY JOBS</a>
+        <a  class="btn "  href="/dashbord">FIND JOBS </a>
+        <a  class="btn " href="/logout">LOGOUT</a>
       </div>
     </div>
     <div class="details-box">

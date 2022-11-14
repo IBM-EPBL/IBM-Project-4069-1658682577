@@ -2,10 +2,15 @@
   margin: 0;
   padding: 0;
 }
+h2{
+  margin-left: 3%;
+  margin-top: 2%;
+  color: white;
+}
 .tit{
-  height: 40px;
+  height: 50px;
   width: 100%;
-    background: #ccebff;
+    background: #66b3ff;
 }
 body{
   margin: 0;

@@ -6,7 +6,10 @@
 .tit{
   height: 40px;
   width: 100%;
-  background:  #ccebff;
+  background:  #66b3ff;
+}
+a{
+  color: white;
 }
 h2{
   text-align: center;

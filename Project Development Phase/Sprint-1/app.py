@@ -6,6 +6,11 @@ import ibm_db
 from flask import Flask, redirect, render_template, request, url_for,session
 from ibm_botocore.client import ClientError, Config
 
+
+
+
+
+
 # Constants for IBM COS values
 COS_ENDPOINT = "https://s3.jp.tok.cloud-object-storage.appdomin.cloud" # Current list avaiable at https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints
 COS_API_KEY_ID = "LWGNzbVTji5V5MG0Doq4jy-Lr4CaAntqoeX6Eh9LMf7T" # eg "W00YixxxxxxxxxxMB-odB-2ySfTrFBIQQWanc--P3byk"

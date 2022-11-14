@@ -7,37 +7,29 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>JOBPORTAL | HOME</title>
     <meta charset="UTF-8">
-        <!-- favicon -->
-        <!-- <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
-        <!-- <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon"> -->
+
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-32x32.png">
-        <!-- bootstrap css cdn -->
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-        <!-- css stylesheet -->
-        <link rel="stylesheet" href="css/style.css">
-        <!-- font styles cdn -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/dash.css') }}">
+
+
 </head>
 <body>
-        <!-- bootstrap navbar -->
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+    
+        <nav class="tit navbar sticky-top navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="main-logo-img mt-3" href="#"><img src="static/images/img.png" alt="sheep-logo" height="50px" width="180px">
-                <!-- <a class="navbar-brand" href="index.html">JobPortal</a> -->
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
+              <h2>Jobs Map</h2>
 
               <div class="row donate-sponsor">
-                <a type="button" class="btn btn-outline-success mr-1" id="donate" href="/logout">LOGOUT</a>
-                <a type="button" class="btn btn-outline-primary mr-1" id="sponsor" href="display">MY JOBS</a>
+                <a  class="btn" href="/logout">Profile</a>
+                <a  class="btn"  href="display">Logout</a>
               </div>
             </div>
           </nav>
+
           <!-- navbar ends -->
 
         <!-- what we focus on -->
@@ -49,10 +41,10 @@
                   <div class="card" style="width: 19rem;">
                     <!-- <img src="assets/img/home kids.jpg" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                      <h5 class="card-title">Python</h5>
-                      <p class="card-text">Skills for python
+                      <h5 class="card-title">Amazon</h5>
+                      <p class="card-text">Software Development Engineer-Test
                       </p>
-                      <a href="apply" class="btn btn-primary">Apply Now</a>
+                      <a href="https://www.amazon.jobs/en/jobs/2166286/software-development-engineer-test"  target="_blank"class="btn btn-primary">Apply Now</a>
                     </div>
                   </div>
                 </div>
@@ -60,9 +52,9 @@
                   <div class="card" style="width: 20rem;">
                     <!-- <img src="assets/img/friendship day.JPG" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                      <h5 class="card-title">Data Scientist</h5>
-                      <p class="card-text">Skills for datascientist</p>
-                        <a href="apply" class="btn btn-primary">Apply Now</a>
+                      <h5 class="card-title">Cognizant</h5>
+                      <p class="card-text">Programmer Analyst Trainee </p>
+                        <a href="https://careers.cognizant.com/in/en/job/COGNGLOBAL00041486673/Programmer-Analyst-Trainee?utm_source=linkedin&utm_medium=phenom-feeds" target="_blank" class="btn btn-primary">Apply Now</a>
                     </div>
                   </div>
                 </div>
@@ -70,9 +62,10 @@
                   <div class="card" style="width: 20rem;">
                     <!-- <img src="assets/img/health camp.jpg" class="card-img-top" alt="..."> -->
                     <div class="card-body">
-                      <h5 class="card-title">HR Manager</h5>
-                      <p class="card-text">skills for hr manager</p>
-                        <a href="apply" class="btn btn-primary">Apply Now</a>
+                      <h5 class="card-title">Canonical</h5>
+                      <p class="card-text"> Security Engineer- Ubuntu
+</p>
+                        <a href="https://boards.greenhouse.io/canonicaljobs/jobs/4698780?gh_src=4aa335b81us" target="_blank" class="btn btn-primary">Apply Now</a>
                     </div>
                   </div>
                 </div>
@@ -80,21 +73,126 @@
             </div>
           </section>
           <!-- focus section ends -->
+          <section class="our-focus">
+              <div class="container">
 
+                <div class="row ml-3 mt-3">
+                  <div class="col-lg-3 mr-5" id="focus-first">
+                    <div class="card" style="width: 19rem;">
+                      <!-- <img src="assets/img/home kids.jpg" class="card-img-top" alt="..."> -->
+                      <div class="card-body">
+                        <h5 class="card-title">Paypal</h5>
+                        <p class="card-text">Software Engineer
+                        </p>
+                        <a href="https://wd1.myworkdaysite.com/recruiting/paypal/jobs/job/Chennai-Tamil-Nadu-India/MTS-2--Software-Engineer_R0094882?Codes=W-LINKEDIN" target="_blank" class="btn btn-primary">Apply Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 mr-5" id="focus-second">
+                    <div class="card" style="width: 20rem;">
+                      <!-- <img src="assets/img/friendship day.JPG" class="card-img-top" alt="..."> -->
+                      <div class="card-body">
+                        <h5 class="card-title">Amazon</h5>
+                        <p class="card-text">Data Scientist Intern</p>
+                          <a href="https://www.amazon.jobs/en/jobs/2213292/data-scientist-intern" target="_blank" class="btn btn-primary">Apply Now</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 ml-5" id="focus-third">
+                    <div class="card" style="width: 20rem;">
+                      <!-- <img src="assets/img/health camp.jpg" class="card-img-top" alt="..."> -->
+                      <div class="card-body">
+                        <h5 class="card-title">Conxai</h5>
+                        <p class="card-text">Deep Learning Engineers </p>
+                          <a href="https://join.com/companies/conxai/6339429-deep-learning-engineers-internship?pid=24a1b46991e3de1fbcf0s" target="_blank" class="btn btn-primary">Apply Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+            <section class="our-focus">
+                <div class="container">
+
+                  <div class="row ml-3 mt-3">
+                    <div class="col-lg-3 mr-5" id="focus-first">
+                      <div class="card" style="width: 19rem;">
+                        <!-- <img src="assets/img/home kids.jpg" class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                          <h5 class="card-title">Hexaware</h5>
+                          <p class="card-text">Application Front end Developer
+                          </p>
+                          <a href="https://jobs.hexaware.com/job/application-front-end-developer-175397?cp=74&p=9&utm_source=Linkedin&utm_medium=referral&utm_campaign=wrap" target="_blank" class="btn btn-primary">Apply Now</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 mr-5" id="focus-second">
+                      <div class="card" style="width: 20rem;">
+                        <!-- <img src="assets/img/friendship day.JPG" class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                          <h5 class="card-title">Amazon</h5>
+                          <p class="card-text">Data Scientist I</p>
+                            <a href="https://www.amazon.jobs/en/jobs/1744525/data-scientist-i" target="_blank" class="btn btn-primary">Apply Now</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 ml-5" id="focus-third">
+                      <div class="card" style="width: 20rem;">
+                        <!-- <img src="assets/img/health camp.jpg" class="card-img-top" alt="..."> -->
+                        <div class="card-body">
+                          <h5 class="card-title">Microsoft</h5>
+                          <p class="card-text">Software Engineer II</p>
+                            <a href="https://careers.microsoft.com/us/en/job/1482841/Software-Engineer-II" target="_blank" class="btn btn-primary">Apply Now</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+              <section class="our-focus">
+                  <div class="container">
+
+                    <div class="row ml-3 mt-3">
+                      <div class="col-lg-3 mr-5" id="focus-first">
+                        <div class="card" style="width: 19rem;">
+                          <!-- <img src="assets/img/home kids.jpg" class="card-img-top" alt="..."> -->
+                          <div class="card-body">
+                            <h5 class="card-title">Amazon</h5>
+                            <p class="card-text">Business Analyst - I
+                            </p>
+                            <a href="https://www.amazon.jobs/en/jobs/2299370/business-analyst-i?cmpid=SPLICX0248M&ss=paid&utm_campaign=cxro&utm_content=job_posting&utm_medium=social_media&utm_source=linkedin.com" class="btn btn-primary">Apply Now</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 mr-5" id="focus-second">
+                        <div class="card" style="width: 20rem;">
+                          <!-- <img src="assets/img/friendship day.JPG" class="card-img-top" alt="..."> -->
+                          <div class="card-body">
+                            <h5 class="card-title">Amazon</h5>
+                            <p class="card-text">Robotics - Electrical Engineer Intern</p>
+                              <a href="https://www.amazon.jobs/en/jobs/2259702/amazon-robotics-electrical-engineer-intern-summer-2023" class="btn btn-primary">Apply Now</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-3 ml-5" id="focus-third">
+                        <div class="card" style="width: 20rem;">
+                          <!-- <img src="assets/img/health camp.jpg" class="card-img-top" alt="..."> -->
+                          <div class="card-body">
+                            <h5 class="card-title">Wipro</h5>
+                            <p class="card-text">Business Analyst</p>
+                              <a href="https://careers.wipro.com/careers-home/jobs/2931947?lang=en-us&utm_source=Linkedin" class="btn btn-primary">Apply Now</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
         <!-- footer starts -->
           <!-- Site footer -->
-          <script>
-        window.watsonAssistantChatOptions = {
-          integrationID: "1e37e3f8-b996-4518-935d-5d45ea53a543", // The ID of this integration.
-          region: "au-syd", // The region your integration is hosted in.
-          serviceInstanceID: "6a00d3de-c85d-45d1-ac93-3662219a5b2b", // The ID of your service instance.
-          onLoad: function(instance) { instance.render(); }
-        };
-        setTimeout(function(){
-          const t=document.createElement('script');
-          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-          document.head.appendChild(t);
-        });
-      </script>
+
           </body>
 </html>

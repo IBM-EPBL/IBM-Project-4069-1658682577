@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <title>SET ACCOUNT</title>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+        
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/setaccount.css') }}">
 <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   </head>
   <body>
     <div class="tit">
-
+<h2 style="color:white;margin-left:-87%"><a href="#" style="text-decoration:none;color:white">Jobs Map</a></h2>
     </div>
     <div class="msg">{{ msg }}</div>
 <form class="setAccount" action="/setprofile" method="post" enctype="multipart/form-data">
