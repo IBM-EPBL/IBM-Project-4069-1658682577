@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.tit{
+  height: 40px;
+  width: 100%;
+  background:  #66b3ff;
+}
+a{
+  color: white;
+}
+h2{
+  text-align: center;
+}
+.body-img{
+  background-image:linear-gradient(rgba(240, 240, 240, 0.9),rgba(240, 240, 240, 0.9)),url("loginpage.png");
+
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  position:absolute;
+}
+
+.register-box{
+  background: #fff;
+  width: 30%;
+  height: 60%;
+  position: relative;
+  margin: auto;
+  top: 15%;
+  border-radius: 10px;
+}
+
+.re-Title{
+
+  height: 7%;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  top:5%;
+}
+.lastFirst-name{
+
+  height: 7%;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  top:20%;
+}
+.email{
+
+  height: 7%;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  top:30%;
+}
+.password{
+
+    height: 7%;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    top:40%;
+}
+
+
+.signup{
+
+  height: 10%;
+  width: 90%;
+  position: relative;
+  margin: auto;
+  top:50%;
+}
+
+.first-name{
+
+  height: 100%;
+  width: 45%;
+}
+.last-name{
+position:relative;
+
+    height: 100%;
+    width: 45%;
+    left: 55%;
+    bottom: 100%;
+  }
+
+  .signup-btn{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+  }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SET ACCOUNT</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+          <link rel="stylesheet" href="{{ url_for('static', filename='css/setaccount.css') }}">
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  </head>
+  <body>
+    <div class="tit">
+<h2 style="color:white;margin-left:-87%"><a href="/login" style="text-decoration:none;color:white">Jobs Map</a></h2>
+    </div>
+    <div class="msg">{{ msg }}</div>
+<form class="setAccount" action="/setprofile" method="post" enctype="multipart/form-data">
+  <div class="profile">
+    <h2>SETUP PROFILE</h2>
+    <div class="name">
+
+      <div class="firstname">
+        <label>First name</label>
+        <input class="fname txt-box form-control" type="text" name="firstname" placeholder="First name" title="First name">
+      </div>
+
+      <div class="lastname">
+          <label>Last name</label>
+        <input class="lname txt-box form-control" type="text" name="lastname" placeholder="Last name" title="First name">
+      </div>
+
+    </div>
+    <div class="email">
+        <label>Email</label>
+      <input class="email-box txt-box form-control" type="email" name="email" title="Email" placeholder="Email">
+    </div>
+    <div class="college">
+  <label>College Name</label>
+  <input class="clgname txt-box form-control" type="text" name="college" placeholder="College Name">
+    </div>
+    <div class="education">
+        <label>Qulification</label>
+        <input class="Qulification  txt-box form-control"type="text" name="qulification" placeholder="Qulification">
+
+
+
+</div>
+
+    <div class="resume">
+      <label>Upload resume </label>
+
+        <input class="resume-Upload"type="file" name="resume"  title="Upload resume">
+
+
+    </div>
+    <div class="desciption">
+      <label>Descriptions</label>
+      <textarea class="decription-box" name="decription" rows="3" cols="60" placeholder="Add description"></textarea>
+
+    </div>
+    <div class="desciption">
+      <label>Techinical Skills</label>
+      <textarea class="decription-box" name="skills" rows="2" cols="60" placeholder="Add skill sets"></textarea>
+    </div>
+
+    <div class="intrest">
+      <label>Filed of intrest</label>
+      <select class="interest-opt" name="interest">
+        <option value="Select">select</option>
+        <option value="web development">web developmen</option>
+        <option value="Cloud computing">Cloud computing</option>
+        <option value="Data sciencet">Data science</option>
+        <option value="Data analytics">Data analytics</option>
+        <option value="Blockchin">Blockchin</option>
+      </select>
+
+    </div>
+
+
+    <div class="next">
+      <button class ="next-btn  btn-primary"type="submit" name="button">Finish  </button>
+    </div>
+
+
+
+  </div>
+
+</form>
+<script>
+window.watsonAssistantChatOptions = {
+integrationID: "1e37e3f8-b996-4518-935d-5d45ea53a543", // The ID of this integration.
+region: "au-syd", // The region your integration is hosted in.
+serviceInstanceID: "6a00d3de-c85d-45d1-ac93-3662219a5b2b", // The ID of your service instance.
+onLoad: function(instance) { instance.render(); }
+};
+setTimeout(function(){
+const t=document.createElement('script');
+t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+document.head.appendChild(t);
+});
+</script>
+
+  </body>
+</html>
