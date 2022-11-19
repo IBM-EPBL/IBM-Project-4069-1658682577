@@ -1,0 +1,21 @@
+apiVersion: app/v1
+kind: Deployment
+metadata:
+    name: jobs
+spec:
+  replicas:1
+    selector:
+        matchLabels:
+        app:flasknode
+	
+    template:
+     metadata:
+        labels:
+         app:flasknode
+     spec:
+       containers:
+       - name: flasknode
+         images: icr.io/jobtest/jobportalapp
+         imagesPullPolicy: Always
+         ports:
+         -containerPort : 5000
